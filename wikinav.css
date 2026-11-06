@@ -1,0 +1,25 @@
+/* Barra de navegación superior e inferior estilo Wikipedia */
+.wiki-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+    padding: 8px 12px;
+    margin: 15px 0;
+    border-top: 1px solid var(--border-color);
+    border-bottom: 1px solid var(--border-color);
+    background-color: var(--light-bg);
+}
+
+.wiki-nav a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+.wiki-nav a:hover {
+    text-decoration: underline;
+}
+
+.wiki-nav .center-index {
+    font-weight: bold;
+}
