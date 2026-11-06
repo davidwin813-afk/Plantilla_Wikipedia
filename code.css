@@ -1,0 +1,19 @@
+code, pre {
+    font-family: monospace, monospace;
+    font-size: 0.9em;
+}
+
+code {
+    background-color: var(--light-bg);
+    padding: 2px 4px;
+    border: 1px solid #eaecf0;
+    border-radius: 2px;
+}
+
+pre {
+    background-color: var(--light-bg);
+    padding: 10px;
+    border: 1px solid var(--border-color);
+    overflow-x: auto;
+    line-height: 1.4;
+}
