@@ -1,0 +1,31 @@
+/* Contenedor general de la nota */
+.note {
+    border: 1px solid var(--border-color);
+    background-color: var(--light-bg);
+    margin: 1.5em 0;
+}
+
+/* Cuadro superior para el título */
+.note-title {
+    background-color: var(--table-header-bg);
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--border-color);
+}
+
+.note-title p {
+    margin: 0;
+}
+
+/* Cuadro inferior para el contenido */
+.note-content {
+    padding: 12px;
+    background-color: var(--bg-color); /* Fondo blanco o principal para distinguirlo del título */
+}
+
+.note-content p {
+    margin: 0 0 0.5em 0;
+}
+
+.note-content p:last-child {
+    margin-bottom: 0;
+}

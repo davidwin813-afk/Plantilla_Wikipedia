@@ -1,0 +1,62 @@
+:root {
+    --bg-color: #ffffff;
+    --text-color: #202122;
+    --link-color: #0645ad;
+    --border-color: #a2a9b1;
+    --light-bg: #f8f9fa;
+    --table-header-bg: #eaecf0;
+}
+
+body {
+    font-family: sans-serif;
+    color: var(--text-color);
+    background-color: var(--bg-color);
+    line-height: 1.6;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px 24px;
+}
+
+/* Headings with subtle bottom border like Wikipedia article sections */
+h1 {
+    font-size: 2em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.25em;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 1.5em;
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.2em;
+    margin-top: 1.5em;
+}
+
+h3 {
+    font-size: 1.25em;
+    margin-top: 1.3em;
+    margin-bottom: 0.3em;
+}
+
+h4 {
+    font-size: 1.1em;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+
+h5 {
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+}
+
+h6 {
+    font-size: 0.9em;
+    margin-top: 0.8em;
+    margin-bottom: 0.2em;
+    color: #54595d; /* Un tono ligeramente más gris para h6 */
+}
+
+p {
+    margin: 0.5em 0 1em 0;
+}

@@ -1,0 +1,33 @@
+.table-container {
+    overflow-x: auto;
+    margin: 20px 0;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 0.95em;
+    border: 1px solid var(--border-color);
+}
+
+.styled-table caption {
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 8px;
+    color: #54595d;
+}
+
+.styled-table thead tr {
+    background-color: var(--table-header-bg);
+    color: var(--text-color);
+    border-bottom: 2px solid var(--border-color);
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 8px 12px;
+    border: 1px solid var(--border-color);
+    text-align: left;
+}

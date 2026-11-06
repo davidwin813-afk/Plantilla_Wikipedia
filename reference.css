@@ -1,0 +1,32 @@
+.reference {
+    font-size: 0.85em;          
+    color: var(--text-color);             
+    border-top: 1px solid var(--border-color); 
+    padding-top: 12px;          
+    margin-top: 24px;           
+}
+
+.reference ol {
+    margin: 0;
+    padding-left: 20px;         
+}
+
+.reference li {
+    margin-bottom: 8px;         
+    line-height: 1.4;           
+}
+
+.reference a {
+    color: var(--link-color);             
+    text-decoration: none;
+    word-break: break-all;      
+}
+
+.reference a:hover {
+    text-decoration: underline; 
+}
+
+a {
+    color: var(--link-color);             
+    text-decoration: none;
+}
